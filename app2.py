@@ -225,4 +225,4 @@ if st.button("🔍 Predict Employee Retention", use_container_width=True):
 #Footer ----------------
 
 st.divider()
-st.caption("Developed with ❤️ using Streamlit | Machine Learning | Python")
+st.caption("🚀 Built with Deep Learning & Streamlit")

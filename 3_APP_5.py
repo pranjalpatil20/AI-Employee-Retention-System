@@ -4,7 +4,7 @@ import pandas as pd
 import pickle 
 
 # load model
-model=pickle.load(open(r"C:\Users\Administrator\Desktop\Internship\Projects\5_AI Employee Retention System\best_model_HR_1.pkl", "rb"))
+model=pickle.load(open("best_model_HR_1.pkl", "rb"))
 
 st.title("👤 AI Employee Retention System")
 

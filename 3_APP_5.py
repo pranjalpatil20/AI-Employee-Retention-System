@@ -8,7 +8,7 @@ model=pickle.load(open("best_model_HR_1.pkl", "rb"))
 
 st.title("👤 AI Employee Retention System")
 
-st.markdown("**Age**: Enter the employee's current age in years.")
+st.caption("Employee's current age in years.")
 Age = st.number_input("Age", min_value=18, max_value=70, value=35)
 
 DistanceFromHome = st.number_input("DistanceFromHome", min_value=1, max_value=100, value=10)

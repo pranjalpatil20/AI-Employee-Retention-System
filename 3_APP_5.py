@@ -11,7 +11,7 @@ st.title("👤 AI Employee Retention System")
 st.info("💡 Enter the employee's current age in years.")
 Age = st.number_input("Age", min_value=18, max_value=70, value=35)
 
-st.caption("Distance between the employee's home and workplace (in km).")
+st.info("Distance between the employee's home and workplace (in km).")
 DistanceFromHome = st.number_input("DistanceFromHome", min_value=1, max_value=100, value=10)
 
 JobLevel = st.selectbox("JobLevel", [1, 2, 3, 4, 5], index=1)
